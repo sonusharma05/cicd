@@ -24,7 +24,7 @@ jobs:
         context: .
         file: ./docker/Dockerfile.user
         push: true
-        tags: sonusharma05/cicd:latest  # Replace with your Docker Hub username and repository
+        tags: sonusharma45/errk18:latest  # Replace with your Docker Hub username and repository
 
     - name: Verify Pushed Image
-      run: docker pull sonusharma05/cicd:latest  # Replace with your Docker Hub username and repository
+      run: docker pull sonusharma45/errk18:latest  # Replace with your Docker Hub username and repository
