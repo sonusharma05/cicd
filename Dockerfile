@@ -17,8 +17,3 @@ RUN npm run build
 
 CMD ["npm", "run", "start-user-app"]
 #hello sonu was here bro
-
-
-
-FROM node:20.12.0-alpine3.19
-WORKDIR /user
